@@ -153,14 +153,10 @@ __count_gmail() {
 	count=$(cat $tmp_file)
 	echo "$count"
 	return 0;
-} 
+}
 
 __count_maildir() {
-	if [ ! -d "$TMUX_POWERLINE_SEG_MAILCOUNT_MAILDIR_INBOX" ]; then
-		return 1
-	fi
-
-	count=$(ls "$TMUX_POWERLINE_SEG_MAILCOUNT_MAILDIR_INBOX" | wc -l)
+	count=$(~/.scripts/mailcount.sh)
 
 	# Fix for mac, otherwise whitespace is left in output
 	if shell_is_osx; then

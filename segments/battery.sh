@@ -71,7 +71,7 @@ __battery_osx() {
 					echo "$charge"
 				else
 					if [[ $charge -lt 50 ]]; then
-						echo -n "#[fg=red]"
+						echo -n "#[fg=white]"
 					fi
 					echo "$charge"
 				fi
