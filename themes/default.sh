@@ -35,7 +35,7 @@ PURPLE="176"
 
 if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
-		"tmux_session_info ${YELLOW} ${BKGND}" \
+		#"tmux_session_info ${YELLOW} ${BKGND}" \
 		"hostname ${BLUE} ${BKGND}" \
 		# "ifstat 30 255" \
 		# "ifstat_sys 30 255" \
