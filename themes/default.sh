@@ -75,9 +75,9 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		# "weather 37 255" \
 		#"rainbarf 0 0" \
 		#"xkb_layout 125 117" \
-		"date_day ${CMMNT} ${BKGND}" \
-		"date ${CMMNT} ${BKGND} ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
-		"time ${CMMNT} ${BKGND} ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
+		"date_day ${BROWN} ${BKGND}" \
+		"date ${BROWN} ${BKGND} ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
+		"time ${BROWN} ${BKGND} ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 		#"utc_time 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 	)
 fi
