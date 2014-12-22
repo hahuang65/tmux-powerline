@@ -23,7 +23,7 @@ __process_settings() {
 run_segment() {
 	__process_settings
 	# Truncate from the left.
-	tcwd=$(get_tmux_cwd)
+	tcwd=$(pwd)
 	trunc_symbol="···"
 	dir=${tcwd##*/}
 	local max_len="$TMUX_POWERLINE_SEG_PWD_MAX_LEN"
