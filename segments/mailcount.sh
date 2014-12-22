@@ -156,7 +156,7 @@ __count_gmail() {
 }
 
 __count_maildir() {
-	count=$(~/.scripts/mailcount.sh)
+	count=$($HOME/.scripts/mailcount.sh)
 
 	# Fix for mac, otherwise whitespace is left in output
 	if shell_is_osx; then
