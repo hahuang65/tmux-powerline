@@ -1,9 +1,8 @@
 # Prints the version of Ruby
+source "${TMUX_POWERLINE_DIR_LIB}/tmux_adapter.sh"
 
 run_segment() {
-  if [ -n "$RUBY_VERSION" ]; then
-    echo "$RUBY_VERSION"
-  fi
+	get_tmux_rvm
 
   return 0
 }
