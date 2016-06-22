@@ -1,9 +1,8 @@
 # Prints the version of Elixir
+source "${TMUX_POWERLINE_DIR_LIB}/tmux_adapter.sh"
 
 run_segment() {
-  if [ -n "$ELIXIR_VERSION" ]; then
-    echo "elixir-$ELIXIR_VERSION"
-  fi
+  get_tmux_kiex
 
   return 0
 }
