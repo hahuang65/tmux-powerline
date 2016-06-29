@@ -67,7 +67,7 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS=(
 		# "earthquake 3 0" \
 		"mailcount ${ORANGE} ${BKGND}" \
-		"now_playing ${YELLOW} ${BKGND}" \
+		# "now_playing ${YELLOW} ${BKGND}" \
     "kiex ${AQUA} ${BKGND}" \
     "rvm ${AQUA} ${BKGND} ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 		# "cpu 240 136" \
